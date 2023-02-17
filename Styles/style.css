@@ -1,0 +1,175 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* TITLE */
+
+h1 {
+  padding: 3vh;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  padding: 2vh;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+/* HEADER */
+
+/* Navigation */
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 10vw;
+  height: 10vh;
+  background: #bebd9e;
+  text-align: center;
+  z-index: 999;
+}
+
+nav .element-nav {
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .element-nav a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+nav a:hover {
+  background: #bebd9e;
+}
+
+label {
+  display: none;
+}
+
+label,
+#toggle {
+  display: none;
+}
+
+@media all and (max-width: 991px) {
+  nav {
+    height: 60px;
+  }
+
+  nav .element-nav {
+    display: none;
+    flex-direction: column;
+    background: #bebd9e;
+    height: 220px;
+  }
+
+  nav .element-nav a {
+    width: 50%;
+  }
+
+  label {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #toggle:checked + .element-nav {
+    display: flex;
+  }
+}
+
+/* Favicon */
+
+.container-favicon {
+  text-align: center;
+  background: #bebd9e;
+}
+
+#cab {
+  width: 30vw;
+}
+
+/* MAIN */
+
+/* Home picture */
+
+#main-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Description */
+
+.description {
+  margin: 5vh;
+}
+
+/* Organizational chart */
+
+.organizational-chart {
+  text-align: center;
+}
+
+.card {
+  width: 95vw;
+  margin: 4vh auto;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+/*subscribe*/
+
+.Contact {
+  width: 100vw;
+  text-align: center;
+  margin: 5vh auto;
+}
+
+.Contact-item {
+  margin: 0;
+}
+
+.btn {
+  background: #bebd9e;
+  margin-top: 2vh;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #bebd9e;
+  text-align: center;
+  padding: 2vh;
+}
+
+.address {
+  color: black;
+}
+.copyright {
+  color: black;
+  text-decoration: none;
+}
