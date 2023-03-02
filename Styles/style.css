@@ -173,3 +173,27 @@ footer {
   color: black;
   text-decoration: none;
 }
+
+/* Main Expression */
+
+.expression {
+  text-align: center;
+  margin: 5vh auto;
+}
+
+.carnaval {
+  width: 80vw;
+  margin: auto;
+}
+
+.para-carnaval {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.saint-nicolas {
+  width: 80vw;
+  margin: auto;
+}
+
+/* RESPONSIVE */
