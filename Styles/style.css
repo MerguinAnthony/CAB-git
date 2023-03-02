@@ -8,21 +8,18 @@
 
 /* TITLE */
 
-h1 {
+h1,
+h2 {
   padding: 3vh;
   text-transform: uppercase;
   text-align: center;
 }
 
-h2 {
-  padding: 2vh;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-
+h2,
 h3 {
   text-decoration: underline;
 }
+
 /* HEADER */
 
 /* Navigation */
@@ -133,7 +130,7 @@ label,
 }
 
 .card {
-  width: 95vw;
+  width: 90vw;
   margin: 4vh auto;
 }
 
@@ -144,7 +141,7 @@ label,
 /*subscribe*/
 
 .Contact {
-  width: 100vw;
+  width: 90vw;
   text-align: center;
   margin: 5vh auto;
 }
@@ -166,34 +163,30 @@ footer {
   padding: 2vh;
 }
 
-.address {
-  color: black;
-}
-.copyright {
+.adress {
   color: black;
   text-decoration: none;
 }
 
 /* Main Expression */
 
-.expression {
+.def-expression {
   text-align: center;
   margin: 5vh auto;
 }
 
-.carnaval {
+.carnaval,
+.saint-nicolas,
+.jeux {
   width: 80vw;
   margin: auto;
 }
 
-.para-carnaval {
+.para-carnaval,
+.para-saint-nicolas,
+.para-jeux {
   text-align: center;
   margin-bottom: 5vh;
-}
-
-.saint-nicolas {
-  width: 80vw;
-  margin: auto;
 }
 
 /* RESPONSIVE */
