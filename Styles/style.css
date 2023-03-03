@@ -168,11 +168,24 @@ footer {
   text-decoration: none;
 }
 
-/* Main Expression */
+/* Mains */
 
-.def-expression {
+.event {
   text-align: center;
   margin: 5vh auto;
+  width: 90vw;
+}
+
+.event1-img {
+  width: 80vw;
+  margin: auto;
+}
+
+.def-expression,
+.def-event {
+  text-align: center;
+  margin: 5vh auto;
+  width: 90vw;
 }
 
 .carnaval,
