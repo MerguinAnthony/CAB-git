@@ -170,19 +170,24 @@ footer {
 
 /* Mains */
 
-.event {
+.event,
+.service,
+.expression {
   text-align: center;
   margin: 5vh auto;
-  width: 90vw;
+  width: 80vw;
 }
 
-.event1-img {
+.event1-img,
+.event2-img,
+.service-img {
   width: 80vw;
   margin: auto;
 }
 
 .def-expression,
-.def-event {
+.def-event,
+.def-service {
   text-align: center;
   margin: 5vh auto;
   width: 90vw;
