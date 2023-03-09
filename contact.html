@@ -36,22 +36,6 @@
       <h1>Cercle D'animations Bruyèrois</h1>
     </header>
     <!-- END HEADER -->
-    <!-- START NAV -->
-    <aside>
-      <nav class="container-nav">
-        <label for="toggle">☰</label
-        ><!--MODIFIER FONT AWESOME-->
-        <input type="checkbox" id="toggle" />
-        <div class="element-nav">
-          <a href="index.html">Accueil</a>
-          <a href="expression.html">manifestations</a>
-          <a href="event.html">Evènements</a>
-          <a href="service.html">Services</a>
-          <a href="contact.html">Contactez-nous</a>
-        </div>
-      </nav>
-    </aside>
-    <!-- END NAV -->
     <!-- START MAIN -->
     <main>
       <!-- HOME PICTURE -->
@@ -72,27 +56,42 @@
           contacter par téléphone ou par mail.
         </p>
       </section>
+      <!-- START NAV -->
+      <aside class="aside-contact">
+        <nav class="container-nav">
+          <label for="toggle">☰</label>
+          <input type="checkbox" id="toggle" />
+          <div class="element-nav">
+            <a class="nav-item" href="index.html">Accueil</a>
+            <a class="nav-item" href="expression.html">manifestations</a>
+            <a class="nav-item" href="event.html">Evènements</a>
+            <a class="nav-item" href="service.html">Services</a>
+            <a class="nav-item" href="contact.html">Contactez-nous</a>
+          </div>
+        </nav>
+      </aside>
+      <!-- END NAV -->
       <!-- FORM -->
-      <div class="container">
-        <form>
+      <div class="container container-form">
+        <form action="traitement.php" method="post">
           <!-- FirstName input -->
           <div>
-            <label class="form-label" for="name">Nom :</label>
+            <label class="form-label" for="name">Nom</label>
             <input class="form-control" id="name" type="text" />
           </div>
           <!-- LastName input -->
           <div>
-            <label class="form-label" for="name">Prénom :</label>
+            <label class="form-label" for="name">Prénom</label>
             <input class="form-control" id="name" type="text" />
           </div>
           <!-- Email -->
           <div>
-            <label class="form-label" for="emailAddress">Email :</label>
+            <label class="form-label" for="emailAddress">Email</label>
             <input class="form-control" id="emailAddress" type="email" />
           </div>
           <!-- Message -->
           <div>
-            <label class="form-label" for="message">Message :</label>
+            <label class="form-label" for="message">Message</label>
             <textarea
               class="form-control"
               id="message"
