@@ -172,7 +172,8 @@ footer {
 
 .event,
 .service,
-.expression {
+.expression,
+.form-contact {
   text-align: center;
   margin: 5vh auto;
   width: 80vw;
@@ -187,7 +188,8 @@ footer {
 
 .def-expression,
 .def-event,
-.def-service {
+.def-service,
+.def-contact {
   text-align: center;
   margin: 5vh auto;
   width: 90vw;
