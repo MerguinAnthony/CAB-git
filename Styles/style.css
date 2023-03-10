@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Martel&family=PT+Sans&display=swap");
 
-/*
-font-family: 'Gentium Book Basic', serif;
-font-family: 'Martel', serif;
-font-family: 'PT Sans', sans-serif;
-*/
-
 *,
 ::before,
 ::after {
@@ -15,6 +9,11 @@ font-family: 'PT Sans', sans-serif;
 }
 
 /* TITLE */
+
+h1 {
+  font-size: 50px;
+}
+
 h1,
 h2,
 h3 {
@@ -93,12 +92,15 @@ label {
 /* Favicon */
 
 .container-favicon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   background: #bebd9e;
 }
 
 #cab {
-  width: 30vw;
+  width: 15vw;
 }
 
 /* MAIN */
@@ -210,6 +212,32 @@ footer {
 /* RESPONSIVE */
 
 @media screen and (min-width: 1024px) {
+  .container-favicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #bebd9e;
+  }
+
+  #cab {
+    position: relative;
+    left: 4vw;
+    width: 5vw;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #main-img {
+    position: absolute;
+    top: 0;
+    max-width: 20vw;
+    height: auto;
+  }
+
   .description,
   .def-expression,
   .def-event,
@@ -228,9 +256,13 @@ footer {
   .container-form,
   .form-label,
   .Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 75vw;
     float: right;
   }
+
   footer {
     width: 20vw;
   }
@@ -238,12 +270,12 @@ footer {
   aside {
     float: left;
     width: 20vw;
-    height: 140vh;
+    height: 90vh;
     background-color: #bebd9e;
   }
   nav {
     position: absolute;
-    top: 200vh;
+    top: 30vh;
     text-align: center;
     width: 20vw;
     display: flex;
@@ -268,15 +300,26 @@ footer {
     background-color: #cac88c;
   }
   .aside-expression {
-    height: 422vh;
+    height: 310vh;
   }
   .aside-event {
-    height: 255vh;
+    height: 230vh;
   }
   .aside-service {
-    height: 40vh;
+    height: 370vh;
   }
   .aside-contact {
-    height: 70vh;
+    height: 90vh;
+  }
+
+  .address-contact {
+    position: absolute;
+    top: 90vh;
+    right: 0;
+    width: 100vw;
+    background-color: #bebd9e;
+    text-align: center;
+    padding: 2vh;
+    font-family: "Martel", serif;
   }
 }
