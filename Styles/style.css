@@ -119,7 +119,7 @@ label {
 }
 
 .card {
-  width: 40vw;
+  width: 70vw;
   margin: 4vh auto;
 }
 
@@ -171,14 +171,6 @@ footer {
   width: 70vw;
 }
 
-.event1-img,
-.event2-img,
-.service-img,
-.img-saint-nicolas {
-  width: 70vw;
-  margin: auto;
-}
-
 .description,
 .def-event,
 .def-service,
@@ -188,10 +180,18 @@ footer {
   width: 70vw;
 }
 
+.img-carnaval,
+.img-saint-nicolas,
+.img-jeux,
+.img-miss {
+  margin-top: 5vh;
+  width: 70vw;
+}
+
 .carnaval,
 .saint-nicolas,
 .jeux {
-  width: 80vw;
+  width: 70vw;
   margin: auto;
 }
 
@@ -199,7 +199,6 @@ footer {
 .para-saint-nicolas,
 .para-jeux {
   text-align: center;
-  margin-bottom: 5vh;
 }
 
 .form-label {
@@ -235,30 +234,6 @@ footer {
     top: 0;
     max-width: 20vw;
     height: auto;
-  }
-
-  .description,
-  .def-event,
-  .def-service,
-  .def-contact,
-  .organizational-chart,
-  .card,
-  .event,
-  .carnaval,
-  .saint-nicolas,
-  .jeux,
-  .service,
-  .para-carnaval,
-  .para-saint-nicolas,
-  .para-jeux,
-  .container-form,
-  .form-label,
-  .Contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 60vw;
-    margin-top: 10vh;
   }
 
   .para-carnaval,
