@@ -119,7 +119,7 @@ label {
 }
 
 .card {
-  width: 90vw;
+  width: 40vw;
   margin: 4vh auto;
 }
 
@@ -180,7 +180,6 @@ footer {
 }
 
 .description,
-.def-expression,
 .def-event,
 .def-service,
 .def-contact {
@@ -239,7 +238,6 @@ footer {
   }
 
   .description,
-  .def-expression,
   .def-event,
   .def-service,
   .def-contact,
@@ -258,9 +256,15 @@ footer {
   .Contact {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 75vw;
-    float: right;
+    justify-content: space-evenly;
+    width: 60vw;
+    margin-top: 10vh;
+  }
+
+  .para-carnaval,
+  .para-saint-nicolas,
+  .para-jeux {
+    margin-top: 0;
   }
 
   footer {
