@@ -10,5 +10,3 @@ Bruyèrois. Au fil des années l'association a su s'adapter aux besoins
 des administés mais aussi proposer plusieurs activités, manifestations
 et services.
 
-reprendre page event mobile
-revoir responsive
