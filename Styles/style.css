@@ -76,17 +76,15 @@ label {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
-  nav .element-nav {
-    display: none;
-    flex-direction: column;
-    background: #bebd9e;
-    height: 220px;
-  }
+nav .element-nav {
+  display: none;
+  flex-direction: column;
+  background: #bebd9e;
+  height: 220px;
+}
 
-  #toggle:checked + .element-nav {
-    display: flex;
-  }
+#toggle:checked + .element-nav {
+  display: flex;
 }
 
 /* Favicon */
@@ -171,21 +169,17 @@ footer {
   width: 70vw;
 }
 
-.description,
-.def-event,
-.def-service,
-.def-contact {
+.description {
   text-align: center;
   margin: 5vh auto;
-  width: 70vw;
+  width: 80vw;
 }
 
-.img-carnaval,
-.img-saint-nicolas,
-.img-jeux,
-.img-miss {
-  margin-top: 5vh;
-  width: 70vw;
+.expression-img,
+.service-img,
+.event-img {
+  margin-top: 3vh;
+  max-width: 70vw;
 }
 
 .carnaval,
@@ -199,6 +193,7 @@ footer {
 .para-saint-nicolas,
 .para-jeux {
   text-align: center;
+  width: 50vw;
 }
 
 .form-label {
@@ -210,95 +205,44 @@ footer {
 /* RESPONSIVE */
 
 @media screen and (min-width: 1024px) {
+  /* HEADER */
+
   .container-favicon {
+    height: 10vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     background: #bebd9e;
   }
 
   #cab {
-    position: relative;
-    left: 4vw;
+    position: absolute;
+    left: 10vw;
     width: 5vw;
-  }
-
-  h1 {
-    display: flex;
-    justify-content: center;
   }
 
   #main-img {
     position: absolute;
     top: 0;
-    max-width: 20vw;
-    height: auto;
+    right: 0;
+    height: 10vw;
   }
 
-  .para-carnaval,
-  .para-saint-nicolas,
-  .para-jeux {
-    margin-top: 0;
-  }
+  /* NAVIGATION */
 
-  footer {
-    width: 20vw;
-  }
-
-  aside {
-    float: left;
-    width: 20vw;
-    height: 90vh;
-    background-color: #bebd9e;
-  }
   nav {
     position: absolute;
-    top: 30vh;
-    text-align: center;
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-  }
-  label {
-    font-size: 0px;
-  }
-  nav .element-nav {
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-  }
-  .nav-item {
-    width: 100vw;
-    border: #000000 solid 1px;
-    border-radius: 50px;
-    margin: 1vh;
-  }
-  .nav-item:hover {
-    scale: 1.1;
-    background-color: #cac88c;
-  }
-  .aside-expression {
-    height: 310vh;
-  }
-  .aside-event {
-    height: 230vh;
-  }
-  .aside-service {
-    height: 370vh;
-  }
-  .aside-contact {
-    height: 90vh;
+    top: 1.5vw;
   }
 
-  .address-contact {
-    position: absolute;
-    top: 90vh;
-    right: 0;
-    width: 100vw;
-    background-color: #bebd9e;
-    text-align: center;
-    padding: 2vh;
-    font-family: "Martel", serif;
+  nav .element-nav {
+    width: 12vw;
+  }
+
+  /* FORM */
+
+  .container-form {
+    width: 70vw;
   }
 }
