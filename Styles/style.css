@@ -101,8 +101,6 @@ nav .element-nav {
   width: 15vw;
 }
 
-/* MAIN */
-
 /* Home picture */
 
 #main-img {
@@ -144,21 +142,7 @@ nav .element-nav {
   margin-top: 2vh;
 }
 
-/* FOOTER */
-
-footer {
-  background-color: #bebd9e;
-  text-align: center;
-  padding: 2vh;
-  font-family: "Martel", serif;
-}
-
-.adress {
-  color: black;
-  text-decoration: none;
-}
-
-/* Mains */
+/* MAIN */
 
 .event,
 .service,
@@ -202,6 +186,20 @@ footer {
   font-size: 20px;
 }
 
+/* FOOTER */
+
+footer {
+  background-color: #bebd9e;
+  text-align: center;
+  padding: 2vh;
+  font-family: "Martel", serif;
+}
+
+.adress {
+  color: black;
+  text-decoration: none;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width: 1024px) {
@@ -243,6 +241,6 @@ footer {
   /* FORM */
 
   .container-form {
-    width: 70vw;
+    width: 60vw;
   }
 }
